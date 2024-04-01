@@ -10,9 +10,9 @@
 
 ## 简介
 
-A Simple&Good SerialPort tools.
+**A Simple&Good SerialPort tools.**
 
-一个简单易用的串口助手。
+**一个简单易用的串口助手。**
 
 ### 特性：
 
@@ -33,22 +33,27 @@ A Simple&Good SerialPort tools.
 <img src="./.assets_README/image-20240401145221884.png" alt="image-20240401145221884" style="zoom:67%;" />
 
 
+## 更新
 
-## 更新记录
+### 更新记录
 
-### V1.0.0
+#### V1.0.2
+- 完善信息页面
+
+
+#### V1.0.0
 - 重构后的新版本
 
 
 
 
-## 更新计划
+### 更新计划
 
 
-### V1.1.0
+#### V1.1.0
 - 日志自动记录功能
 
-### v1.2.0
+#### v1.2.0
 
 - 高亮显示日志设置功能
 
@@ -58,7 +63,7 @@ A Simple&Good SerialPort tools.
 
 **如果有任何宝贵的意见/建议 欢迎提交Issue**
 
-
+联系方式：791836949@qq.com
 
 ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
 
@@ -73,3 +78,17 @@ A Simple&Good SerialPort tools.
 <img src="./.assets_README/donate.jpg" alt="donate" style="zoom: 33%;" />
 
 ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+
+## Q&A
+
+### 1、图标显示问题
+
+软件使用freetype字体引擎，如果遇到图标显示不正常，比如显示方框的情况，只需要修改根目录下的配置文件 `./conf/settings.json`中freetype引擎改为false即可。
+
+```json
+"font_freetype_engine": false
+```
+
+<img src="./.assets_README/image-20240401202226194.png" alt="image-20240401202226194" style="zoom:67%;" />
+
+---
