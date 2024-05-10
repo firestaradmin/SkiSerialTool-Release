@@ -8,6 +8,9 @@
 
 [TOC]
 
+## 目录
+- [更新记录](#更新记录)
+
 ## 简介
 
 **A Simple&Good SerialPort tools.**
